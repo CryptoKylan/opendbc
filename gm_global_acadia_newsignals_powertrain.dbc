@@ -317,13 +317,25 @@ BO_ 647 NEW_MSG_MAPPED_LONG_4: 8 XXX
  SG_ NEW_SIGNAL_1 : 39|8@0+ (1,0) [0|1] "" XXX
 
 BO_ 454 NEW_MSG_MAPPED_LONG_5: 8 XXX
- SG_ NEW_SIGNAL_2 : 21|14@0+ (1,0) [0|1] "" XXX
- SG_ NEW_SIGNAL_1 : 54|13@0+ (1,0) [0|1] "" XXX
  SG_ NEW_SIGNAL_3 : 57|2@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_1 : 55|14@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_2 : 21|14@0- (1,0) [0|1] "" XXX
 
 BO_ 426 NEW_MSG_MAPPED_LONG_6: 8 XXX
  SG_ GasAndAcc_6 : 38|15@0- (1,0) [0|1] "" XXX
  SG_ NEW_SIGNAL_2 : 31|5@0+ (0.01,0) [0|1] "" XXX
+
+BO_ 453 NEW_MSG_15: 8 XXX
+ SG_ NEW_SIGNAL_3 : 5|14@0+ (1,0) [0|1] "" XXX
+ SG_ front_proximity_lead : 21|14@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_1 : 37|14@0- (1,0) [0|1] "" XXX
+
+BO_ 442 NEW_MSG_16: 8 XXX
+ SG_ NEW_SIGNAL_1 : 51|12@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_2 : 47|12@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_3 : 27|12@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_5 : 3|12@0+ (1,0) [0|1] "" XXX
+ SG_ front_proximity_2 : 23|12@0+ (0.01,0) [0|1] "" XXX
 
 BO_TX_BU_ 384 : K124_ASCM,NEO;
 BO_TX_BU_ 715 : NEO,K124_ASCM;
