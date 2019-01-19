@@ -217,7 +217,11 @@ BO_ 1033 ASCMKeepAlive: 7 NEO
 BO_ 1034 ASCM_40A: 7 K124_ASCM
 
 BO_ 1217 ECMEngineCoolantTemp: 8 K20_ECM
+ SG_ NEW_SIGNAL_2 : 47|8@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_3 : 15|8@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_4 : 39|8@0+ (1,0) [0|1] "" XXX
  SG_ EngineCoolantTemp : 23|8@0+ (1,-40) [0|0] "°C" NEO
+ SG_ UnknownTemp : 31|8@0+ (1,0) [0|1] "" XXX
 
 BO_ 1249 VIN_Part2: 8 K20_ECM
  SG_ VINPart2 : 7|64@0+ (1,0) [0|0] "" NEO
@@ -228,6 +232,8 @@ BO_ 1300 VIN_Part1: 8 K20_ECM
  SG_ VINPart1 : 7|64@0+ (1,0) [0|0] "" NEO
 
 BO_ 1912 PSCM_778: 8 K43_PSCM
+ SG_ NEW_SIGNAL_1 : 13|2@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_2 : 8|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 1930 ASCM_78A: 7 K124_ASCM
 
