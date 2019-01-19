@@ -100,9 +100,11 @@ BO_ 568 NEW_MSG_10: 8 XXX
  SG_ NEW_SIGNAL_1 : 9|2@0+ (1,0) [0|1] "" XXX
 
 BO_ 832 NEW_MSG_11: 8 XXX
- SG_ NEW_SIGNAL_1 : 48|9@0- (1,0) [0|1] "" XXX
- SG_ NEW_SIGNAL_2 : 14|7@0+ (1,0) [0|1] "" XXX
- SG_ NEW_SIGNAL_3 : 2|1@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_1 : 63|8@0- (1,0) [0|1] "" XXX
+ SG_ BrakePressed : 1|2@0+ (1,0) [0|1] "" XXX
+ SG_ GasPressed : 14|7@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_2 : 17|2@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_3 : 33|2@0+ (1,0) [0|1] "" XXX
 
 BO_ 1001 NEW_MSG_12: 8 XXX
  SG_ NEW_SIGNAL_1 : 11|12@0+ (1,0) [0|1] "" XXX
@@ -124,10 +126,37 @@ BO_ 489 NEW_MSG_16: 8 XXX
  SG_ NEW_SIGNAL_6 : 15|2@0+ (1,0) [0|1] "" XXX
 
 BO_ 508 NEW_MSG_17: 8 XXX
- SG_ NEW_SIGNAL_1 : 53|18@0+ (1,0) [0|1] "" XXX
- SG_ NEW_SIGNAL_3 : 5|14@0- (1,0) [0|1] "" XXX
- SG_ NEW_SIGNAL_4 : 37|14@0+ (1,0) [0|1] "" XXX
- SG_ NEW_SIGNAL_2 : 21|14@0- (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_1 : 48|13@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_3 : 7|16@0- (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_4 : 39|16@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_2 : 23|16@0- (1,0) [0|1] "" XXX
+
+BO_ 840 NEW_MSG_18: 8 XXX
+ SG_ NEW_SIGNAL_2 : 45|2@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_3 : 18|11@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_4 : 2|11@0+ (1,0) [0|1] "" XXX
+
+BO_ 842 NEW_MSG_19: 8 XXX
+ SG_ NEW_SIGNAL_1 : 18|11@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_2 : 2|11@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_3 : 34|11@0+ (1,0) [0|1] "" XXX
+
+BO_ 386 NEW_MSG_20: 8 XXX
+ SG_ NEW_SIGNAL_2 : 14|2@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_1 : 9|10@0- (1,0) [0|1] "" XXX
+
+BO_ 501 NEW_MSG_21: 8 XXX
+ SG_ NEW_SIGNAL_1 : 4|3@0+ (1,0) [0|1] "" XXX
+ SG_ Gear : 22|4@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_2 : 6|2@0+ (1,0) [0|1] "" XXX
+
+BO_ 554 NEW_MSG_22: 8 XXX
+
+BO_ 564 NEW_MSG_23: 8 XXX
+ SG_ NEW_SIGNAL_1 : 23|8@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_2 : 31|2@0+ (1,0) [0|1] "" XXX
+
+BO_ 512 NEW_MSG_24: 8 XXX
 
 BO_TX_BU_ 823 : K43_PSCM,NEO;
 BO_TX_BU_ 789 : NEO,K17_EBCM;
